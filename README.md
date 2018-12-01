@@ -1,2 +1,2 @@
-# new-project
+calculator
 my first project
