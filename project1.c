@@ -29,9 +29,11 @@ int main()
 void display()
 {
 
-	printf("welcom! to calc\n");
-	printf("1. addition\n 2. subtraction\n 3. multiplication\n 4. division\n Enter ur choice");
-	scanf("%d" , &choice);	
+	printf("welcom! to calc\nMenu\n");
+	printf("1.addition\n 2.subtraction\n 3.multiplication\n 4.division\nEnter ur choice");
+	scanf("%d" , &choice);
+	printf("you entered %d\n", choice);
+	
 	
 	
 }
@@ -40,7 +42,8 @@ void display()
 
 void add()
 {
-	int a,b;
+	int  a,b;
+	printf("ADDITION\n");
 	printf("enter the two no");
 	scanf("%d%d" ,&a,&b);
 	printf("sum is =%d\n", a+b);
@@ -51,6 +54,7 @@ void add()
 void sub()
 {
 	int a,b;
+	PRINTF("SUBTRACTION\n");
 	printf("enter two no");
 	scanf("%d%d", &a,&b);
 	printf("sun is =%d", a-b);	
@@ -60,6 +64,7 @@ void sub()
 void mult()
 {
 	int a,b;
+	printf("MULTIPLICATION\n");
 	printf("enter two no");
 	scanf("%d%d" ,&a,&b);
 	printf("multipication is =%d", a*b);
@@ -69,8 +74,9 @@ void mult()
 void div()
 {
 	int a,b;
-printf("enter two no");
+	printf("DIVISION\n");
+printf("enter no");
 scanf("%d%d" ,&a,&b);
-printf("reminder id =%d", a%b);	
+printf("quotient is=%d", a/b);	
 	
 }
