@@ -1,2 +1,1 @@
-calculator
 my first project
