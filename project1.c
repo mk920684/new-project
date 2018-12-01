@@ -30,7 +30,9 @@ void display()
 {
 
 	printf("welcom! to calc\nMenu\n");
+	printf("-------------------------------\n");
 	printf("1.addition\n 2.subtraction\n 3.multiplication\n 4.division\nEnter ur choice");
+	printf("--------------------------------\n");
 	scanf("%d" , &choice);
 	printf("you entered %d\n", choice);
 	
@@ -54,7 +56,7 @@ void add()
 void sub()
 {
 	int a,b;
-	PRINTF("SUBTRACTION\n");
+	printf("SUBTRACTION\n");
 	printf("enter two no");
 	scanf("%d%d", &a,&b);
 	printf("sun is =%d", a-b);	
